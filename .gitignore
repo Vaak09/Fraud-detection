@@ -3,7 +3,6 @@
 
 # Laravel specific
 .env
-.env.*.backup
 
 # Debug and IDE files
 .phpunit.result.cacheå

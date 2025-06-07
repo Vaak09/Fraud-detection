@@ -29,7 +29,7 @@ class ScanService
         $customers = collect($data['customers']);
         $scan = new Scan([
             'scan_date' => now(),
-            'details' => $customers->isNotEmpty() ? 'Scan completed successfully' : 'No data found',
+            'details' => $customers->isNotEmpty() ? json_encode(['message' => 'Scan completed successfully']) : json_encode(['message' => 'No data found']),
         ]);
 
         $scan->save();
