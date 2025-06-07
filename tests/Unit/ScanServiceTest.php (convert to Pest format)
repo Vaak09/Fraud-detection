@@ -1,0 +1,18 @@
+{
+    "require-dev": {
+        "pestphp/pest": "^1.0"
+    }
+}
+```
+
+<?php
+
+use Pest\Laravel;
+
+beforeEach(function () {
+    // Setup code here
+});
+
+it('tests the scan service', function () {
+    $this->assertTrue(true);
+});

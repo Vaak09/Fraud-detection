@@ -1,0 +1,18 @@
+/node_modules
+/vendor
+
+# Laravel specific
+.env
+.env.*.backup
+
+# Debug and IDE files
+.phpunit.result.cacheå
+Homestead.yaml
+Homestead.json
+/.vagrant
+/.idea
+/.vscode
+
+# System files
+.DS_Store
+Thumbs.db
